@@ -471,6 +471,7 @@
 
 .powerful__image {
     border-radius: 20px;
+    overflow: hidden;
     box-shadow: 
     0px 20px 25px -5px rgba(0, 0, 0, 0.07),
     0px 0px 10px 0px rgba(0, 0, 0, 0.1);
