@@ -169,7 +169,7 @@
     max-width: 760px;
     line-height: 1.6;
     text-wrap: balance;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 /* .block-header__text:not(:last-child){
