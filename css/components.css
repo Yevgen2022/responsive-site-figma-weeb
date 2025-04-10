@@ -83,6 +83,20 @@
     text-transform: uppercase;
 }
 
+/* .label span{
+    position: relative;
+}
+
+.label span::before{
+    content: "";
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #c084fc;
+} */
+
 .label--margin {
     margin-bottom: 16px;
 }
