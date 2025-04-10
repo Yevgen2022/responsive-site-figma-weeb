@@ -114,17 +114,29 @@
     display: inline-block;
 }
 
-.block-header__text-title {}
+/* .block-header__text-title {} */
 
+.block-header__bg,
 .block-header__border,
 .block-header__line {
     position: relative;
 }
 
+.block-header__bg span,
 .block-header__border span,
 .block-header__line span {
     position: relative;
     z-index: 2;
+}
+
+.block-header__bg::before{
+    content: "";
+    height: 100%;
+    width: 23 %;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    background-color: #be185d;
 }
 
 .block-header__border::before{

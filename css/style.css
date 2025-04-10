@@ -9,7 +9,7 @@
      color: #fff;
  }
 
- @media (max-width: 767.98) {
+ @media (max-width: 767.98px) {
      body {
          font-size: 16px;
      }
@@ -289,6 +289,11 @@
 
  .page__powerful {}
 
+ .page__customers {}
+
+ .page__speed {
+}
+
  [class*="page__"] {
      padding-top: 80px;
      padding-bottom: 80px;
@@ -441,8 +446,6 @@
 
  /* ================================================================================= */
 
- .page__powerful {}
-
  .powerful {}
 
  .powerful__container {
@@ -480,12 +483,90 @@
          grid-template-columns: auto;
      }
 
-         powerful-header {
-             justify-items: center;
-             text-align: center;
-         }
-
-         .powerful__block-header .block-header__link {
-             justify-self: center;
-         }
+     .powerful-header {
+         justify-items: center;
+         text-align: center;
      }
+
+ }
+
+
+ /* ================================================================================= */
+
+
+ .customers {}
+
+ .customers__container {
+     display: grid;
+     align-items: start;
+     grid-template-columns: 1fr 30%
+         /*375/1280*/
+     ;
+     column-gap: 80px;
+     row-gap: 48px;
+ }
+
+ .customers__body {}
+
+ .customers__block-header {}
+
+ .customers__media {
+    padding-top: 37px;
+ }
+
+ .customers__image {
+    min-width: 100%;
+ }
+
+ @media (max-width: 767.98px) {
+     .customers__container {
+         justify-items: center;
+         grid-template-columns: auto;
+     }
+
+     .customers__block-header {
+         justify-items: center;
+         text-align: center;
+     }
+
+     .customers__block-header .block-header__link {
+         justify-self: center;
+     }
+ }
+
+/* ================================================================================= */
+ 
+.speed {
+}
+.speed__container {
+}
+.speed__body {
+}
+.speed__block-header {
+}
+.block-header {
+}
+.block-header__top {
+}
+.block-header__label {
+}
+.label {
+}
+.label--margin {
+}
+.block-header__mini-title {
+}
+.title {
+}
+.block-header__text {
+}
+.speed__media {
+}
+.speed__image {
+    max-width: 100%;
+     border-radius: 20px;
+     overflow: hidden;
+     box-shadow:
+         0px 20px 25px -5px rgba(0, 0, 0, 0.07),
+         0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
