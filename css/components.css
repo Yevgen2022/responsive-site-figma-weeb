@@ -57,6 +57,10 @@
     text-wrap: balance;
 }
 
+/* .title--black{
+color: #000;
+} */
+
 .title--center {
     text-align: center;
 }
@@ -297,4 +301,11 @@
     .block-header__line--bottom::before {
         display: none;
     }
+}
+
+/* ================================================================= */
+.link-event{
+background: url(../img/icons/arrow-purple.svg) right no-repeat;
+padding-right: 35px;
+color: #9333ea;
 }
