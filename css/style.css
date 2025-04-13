@@ -908,9 +908,57 @@
  }
 
  .nav-footer__link:hover {
-     text-decoration: underline;
+     /* text-decoration: underline; */
 
  }
+
+
+
+/* Underline animation start*/
+ .nav-footer__link span{
+    position: relative;
+    display: inline-block;
+    line-height: 1.2;
+}
+
+.nav-footer__link span::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    transition: width 0.5s;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+}
+
+.nav-footer__link:hover span::after{
+    width: 100%;
+} 
+/* ========= */
+/* .nav-footer__link {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-footer__link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    transition: width 0.5s;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+}
+
+.nav-footer__link:hover::after {
+    width: 100%;
+} */
+
+/* Underline animation stop*/
+
+
 
  .footer__bottom {
      border-top: 1px solid #CBD5E1;
