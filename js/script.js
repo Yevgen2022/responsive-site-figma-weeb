@@ -40,4 +40,4 @@ const observer = new IntersectionObserver(callback, options);
 const animElements = document.querySelectorAll('[class*="--anim"]');
 animElements.forEach(animElement =>{
     observer.observe(animElement);
-})
+});
